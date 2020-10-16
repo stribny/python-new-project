@@ -52,21 +52,21 @@ This will take you to a project setup asking for:
 The generated structure looks like this:
 
 ```
-  project_name/ 
-└────     project_name/ 
-   └────     __init__.py  
-├────     .flake8  
-├────     .git/ 
-├────     .gitignore  
-├────     mypy.ini  
-├────     poetry.lock  
-├────     .pre-commit-config.yaml  
-├────     pyproject.toml  
-├────     pytest.ini  
-├────     README.md  
-└────     tests/ 
-   ├────     __init__.py  
-   └────     test_project.py
+project_name/ 
+└────   project_name/ 
+   └────   __init__.py  
+├────   .flake8  
+├────   .git/ 
+├────   .gitignore  
+├────   mypy.ini  
+├────   poetry.lock  
+├────   .pre-commit-config.yaml  
+├────   pyproject.toml  
+├────   pytest.ini  
+├────   README.md  
+└────   tests/ 
+   ├────   __init__.py  
+   └────   test_project.py
 ```
 
 ## Additional resources
