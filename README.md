@@ -77,6 +77,6 @@ dependencies. If you want to add MyPy to your pre-commit hook, [read the instruc
 
 ## Additional resources
 
-- Read the blog post [Starting new modern Python projects](https://github.com/stribny/python-new-project) about this cookiecutter template
+- Read the blog post [Starting new modern Python projects](https://stribny.name/blog/2020/10/starting-new-modern-python-projects) about this cookiecutter template
 - Read [Building command line interfaces in Python](https://stribny.name/blog/2020/01/building-command-line-interfaces-in-python) to see Typer and rich packages in action
 - Read [Debugging Python programs](https://stribny.name/blog/2019/06/debugging-python-programs) to see how to use pysnooper and stackprinter for better debugging
