@@ -40,6 +40,7 @@ cookiecutter https://github.com/stribny/python-new-project
 
 This will take you to a project setup asking for:
 - `project_name`, the Python package name and name of the project folder
+- `project_description`, the Python package description
 - `human_name`, the name that will be used in generated README file
 - `python_version`, the Python version that should be set for the project
 

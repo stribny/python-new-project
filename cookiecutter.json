@@ -1,5 +1,6 @@
 {
     "project_name": "project",
+    "project_description": "Project description",
     "human_name": "New Python project",
     "python_version": "^3.7"
 }
