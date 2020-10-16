@@ -1,2 +1,2 @@
 #!/bin/bash
-poetry install && pre-commit install
+poetry install && poetry run pre-commit install
