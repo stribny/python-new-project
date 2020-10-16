@@ -16,7 +16,7 @@ The template will:
 - install [Black](https://black.readthedocs.io/en/stable/) for code formatting
 - install [Flake8](https://flake8.pycqa.org/en/latest/) for finding bugs
 - install [MyPy](http://mypy-lang.org/) for static type checking and create `mypy.ini` configuration file
-- install [pre-commit](https://pre-commit.com/) to run Black, Flake8 and MyPy checks before every commit
+- install [pre-commit](https://pre-commit.com/) to run Black, Flake8 checks before every commit
 - install [bandit](https://bandit.readthedocs.io/) for security-related checks
 - create `README.md` README file
 - create `.gitignore` file
@@ -68,6 +68,12 @@ project_name/
    ├────   __init__.py  
    └────   test_project.py
 ```
+
+## Configuring MyPy
+
+By default, MyPy will be installed in the project, but not added as a pre-commit hook. This is because
+pre-commit would run MyPy in a different virtualenv which will make MyPy unable to pick up your installed 
+dependencies. If you want to add MyPy to your pre-commit hook, [read the instructions here](https://github.com/pre-commit/mirrors-mypy).
 
 ## Additional resources
 
