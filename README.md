@@ -1,6 +1,6 @@
 # Cookiecutter template for starting new modern Python projects
 
-This templates allow you to easily setup new Python projects with the most important libraries and configuration files for managing dependencies and virtualenv, code formatting, debugging, testing, static code analysis and creating command-line interfaces.
+This template allows you to easily setup new Python projects with the most important libraries and configuration files for managing dependencies and virtualenv, code formatting, debugging, testing, static code analysis and creating command-line interfaces.
 
 You can use it as-is or fork and modify according to your preferences.
 
