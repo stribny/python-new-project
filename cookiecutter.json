@@ -2,5 +2,6 @@
     "project_name": "project",
     "project_description": "Project description",
     "human_name": "New Python project",
+    "author": "John Snow <jsnow@example.com>",
     "python_version": "^3.7"
 }
