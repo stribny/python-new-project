@@ -20,12 +20,16 @@ The template will:
 - install [bandit](https://bandit.readthedocs.io/) for security-related checks
 - create `README.md` README file
 - create `.gitignore` file
+- initialize new Git repository
+
 
 ## How to use the template
 
 This is a [cookiecutter](https://cookiecutter.readthedocs.io) template.
 
-To use it, make sure you have at least Python 3.7 installed and install `cookiecutter` and `poetry`:
+To use it, make sure you have at least Python 3.7 and git installed. 
+
+Then install `cookiecutter` and `poetry` via `pip`:
 
 ```
 pip install poetry --user
